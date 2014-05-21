@@ -44,6 +44,17 @@ import org.junit.runners.JUnit4;
  */
 @RunWith(JUnit4.class)
 public class NullTest {
+
+  @Before
+  public void setup() {
+
+  }
+
+  @After
+  public void teardown() {
+
+  }
+
   /**
    * This test always passes, because it has no asserts to fail.
    */
