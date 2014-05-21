@@ -1,0 +1,13 @@
+android_library(
+  name = 'microbenchmarks',
+  srcs = [ 'Foo.java', ],
+  visibility = [ 'PUBLIC' ],
+  deps = [
+    '//libs:android-support-v4',
+    '//res/org/denovogroup/microbenchmarks:res',
+  ],
+)
+
+project_config(
+  src_target = ':microbenchmarks',
+)
